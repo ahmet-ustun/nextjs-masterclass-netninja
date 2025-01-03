@@ -1,7 +1,7 @@
 import "./globals.css";
 import { MedievalSharp } from "next/font/google";
 
-// Components
+// components
 import Navbar from "./components/Navbar";
 
 const medievalSharp = MedievalSharp({ subsets: ["latin"], weight: "400" });
