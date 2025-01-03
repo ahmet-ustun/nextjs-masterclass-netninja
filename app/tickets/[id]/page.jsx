@@ -1,4 +1,4 @@
-import {notFound} from 'next/navigation'
+import { notFound } from "next/navigation";
 
 export const dynamicParams = true;
 
@@ -19,7 +19,7 @@ async function getTicketDetails(id) {
   });
 
   if (!response.ok) {
-    notFound()
+    notFound();
   }
 
   return response.json();
